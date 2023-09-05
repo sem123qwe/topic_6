@@ -1,10 +1,10 @@
-name = int(input(""))
-error = float(input(""))
-unic = str(input(""))
+integer: int = int(input("Введите целое число: "))
+double: float = float(input("Введите дробное число: "))
+line: str = input("Введите строку: ")
 
-search = dict( name = int(), error = float, unic = str)
+is_true: bool = ...
 
-if search is True:
+if is_true:
     print("Да")
 else:
     print("Нет")

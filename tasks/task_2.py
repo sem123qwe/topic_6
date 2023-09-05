@@ -1,8 +1,8 @@
-num = int(input("Введите целое число: "))
+num: int = int(input("Введите целое число: "))
 
 if num > 0:
     print(1)
-elif num == 0:
-    print(0)
-else:
+elif num < 0:
     print(-1)
+else:
+    print(0)
