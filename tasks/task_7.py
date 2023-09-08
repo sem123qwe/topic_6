@@ -2,7 +2,9 @@ integer: int = int(input("Введите целое число: "))
 double: float = float(input("Введите дробное число: "))
 line: str = input("Введите строку: ")
 
-is_true: bool = ...
+link = [integer, double, line]
+
+is_true: bool = all(link)
 
 if is_true:
     print("Да")
