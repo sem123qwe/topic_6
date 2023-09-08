@@ -8,7 +8,5 @@ elif num_2 > num_3:
     print("Наибольшее число:", num_2)
 elif num_3 > num_2:
     print("Наибольшее число:", num_3)
-elif num_1 == num_2 and num_1 == num_3:
-    print("Все числа равны")
 else:
-    print("Ошибка")
+    print("Все числа равны")
